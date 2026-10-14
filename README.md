@@ -1,5 +1,3 @@
-<div align="center">
-
 # 🌐 NyasaTech1 Corporate Platform & IT Solutions
 ### *High-Performance, Dark-Mode Corporate Web Application & Technical Support Portal*
 
@@ -10,15 +8,13 @@
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
 [![Hosted on GitHub Pages](https://img.shields.io/badge/Hosted-GitHub%20Pages-2ea44f?style=flat&logo=github)](https://james5693011.github.io/Washi/)
 
-</div>
-
 ---
 
 ## 🚀 Overview
 
 **NyasaTech1** is a professional IT solutions, corporate support, and custom software engineering platform operating in Malawi. Built with a minimalist, high-performance **dark-mode aesthetic**, the platform features a glassmorphic sticky header, a responsive mobile drawer navigation, smart session caching loaders, and interactive service cards with unique visual previews.
 
-Led by technical partners **James Daudi** and **Jimmy Kuloya**, NyasaTech1 bridges the gap between complex digital solutions and local operational needs across Malawi.
+Led by **designer212** and technical partner **Jimmy Kuloya**, NyasaTech1 bridges the gap between complex digital solutions and local operational needs across Malawi.
 
 ---
 
