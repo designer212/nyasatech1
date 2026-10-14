@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Custom web apps, IT support, laptop repair, networking, cybersecurity, training and more across Malawi.">
+    <meta name="theme-color" content="#000000">
+    <title>Services — NyasaTech1 IT Solutions & Support</title>
+    <link rel="stylesheet" href="styles.css">
+    <noscript><style>.content-hidden{opacity:1}.loader-overlay{display:none}</style></noscript>
+</head>
+<body id="top" data-page="services">
+
+    <!-- Loading Screen Overlay (bypassed on inner pages by script.js) -->
+    <div id="loader-screen" class="loader-overlay" aria-hidden="true">
+        <div class="loader-container">
+            <svg class="loader-logo" viewBox="0 0 160 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <text x="0" y="28" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-weight="700" font-size="22" letter-spacing="1">NYASA<tspan fill="#0066FF">TECH1</tspan></text>
+            </svg>
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+    <!-- Main Website Content -->
+    <div id="main-content" class="content-hidden">
+
+        <!-- Sticky Navigation Header -->
+        <header id="site-header">
+            <div class="header-container">
+                <a href="index.html" class="logo-link" aria-label="NyasaTech1 home">
+                    <svg class="brand-logo" viewBox="0 0 160 40" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="NyasaTech1">
+                    <text x="0" y="28" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-weight="700" font-size="22" letter-spacing="1">NYASA<tspan fill="#0066FF">TECH1</tspan></text>
+                </svg>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="desktop-nav" aria-label="Main">
+                    <ul>
+                        <li><a href="index.html" class="glass-btn">Home</a></li>
+                        <li><a href="services.html" class="glass-btn active">Services</a></li>
+                        <li><a href="about.html" class="glass-btn">About Us</a></li>
+                        <li><a href="#request" class="glass-btn" data-request>Request Support</a></li>
+                        <li><a href="#request" class="glass-btn" data-request data-support="General enquiry">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Mobile Hamburger Menu Button -->
+                <button type="button" id="mobile-menu-toggle" class="mobile-menu-btn" aria-label="Toggle navigation menu" aria-controls="mobile-drawer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </header>
+
+        <!-- Mobile Navigation Drawer (kept outside the header so it always covers the full screen) -->
+        <div id="mobile-drawer" class="mobile-drawer">
+            <ul>
+                <li><a href="index.html" class="mobile-link">Home</a></li>
+                <li><a href="services.html" class="mobile-link active">Services</a></li>
+                <li><a href="about.html" class="mobile-link">About Us</a></li>
+                <li><a href="#request" class="mobile-link" data-request>Request Support</a></li>
+                <li><a href="#request" class="mobile-link" data-request data-support="General enquiry">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Standardized Fullscreen Hero Section -->
+        <section class="hero-fullscreen">
+            <!-- Background Image Carousel Container -->
+            <div class="hero-carousel">
+                <div class="carousel-slide active" style="background-image: url('assets/images/hero-tech-1.jpg');"></div>
+                <div class="carousel-slide" style="background-image: url('assets/images/hero-tech-2.jpg');"></div>
+                <div class="carousel-slide" style="background-image: url('assets/images/nyasatech1.jpg');"></div>
+                <div class="hero-overlay"></div>
+            </div>
+
+            <!-- Vertical Social Icons Sidebar on the Left -->
+            <div class="hero-social-sidebar">
+                <a href="#request" data-request data-social="whatsapp" aria-label="WhatsApp" class="social-icon-link">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                </a>
+                <a href="#request" data-request data-social="facebook" aria-label="Facebook" class="social-icon-link">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                </a>
+                <a href="#request" data-request data-social="email" aria-label="Email" class="social-icon-link">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </a>
+            </div>
+
+            <!-- Hero Content tailored for Services -->
+            <div class="hero-inner">
+                <div class="hero-left-box">
+                    <span class="status-badge">
+                        <span class="status-dot" aria-hidden="true"></span> Professional Offerings
+                    </span>
+                    <h1>Comprehensive IT & <span>Software Solutions</span></h1>
+                    <p>Tailored technology services, custom application engineering, and reliable support for homes and businesses across Malawi.</p>
+                    <div class="hero-buttons">
+                        <a href="#request" data-request class="btn-primary">Request Support</a>
+                        <a href="#services-list" class="btn-secondary">Explore Services</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel Navigation Dots -->
+            <div class="carousel-dots">
+                <button type="button" class="dot active" data-slide="0" aria-label="Show slide 1"></button>
+                <button type="button" class="dot" data-slide="1" aria-label="Show slide 2"></button>
+                <button type="button" class="dot" data-slide="2" aria-label="Show slide 3"></button>
+            </div>
+        </section>
+
+  <!-- Full 13-Services Grid Section -->
+<section id="services-list" class="services-full-list">
+    <div class="container">
+        <div class="services-grid-detailed">
+            
+            <!-- 1. Custom Web Application Development (Flagship Featured) -->
+            <div class="service-card featured-service" style="background-image: url('assets/images/service-webapp.jpg');">
+                <div class="service-card-overlay"></div>
+                <div class="service-card-content">
+                    <div class="service-badge">Flagship Expertise</div>
+                    <h3>Custom Web Application Development</h3>
+                    <p>End-to-end design and deployment of secure, high-performance web applications tailored to operational needs.</p>
+                    
+                    <!-- Expandable Extra Info Content -->
+                    <div class="service-expandable-content">
+                        <p class="extra-details">Proven track record includes building production solutions like enterprise payroll web apps, document scanner utilities, and primary school results grading platforms built with Next.js, React, TypeScript, and PostgreSQL.</p>
+                        <a href="#request" data-request class="btn-primary">Request Support &rarr;</a>
+                    </div>
+                    
+                    <button type="button" class="expand-card-btn" aria-expanded="false">Learn More &darr;</button>
+                </div>
+            </div>
+            
+            <!-- 2. Business IT Support -->
+            <div class="service-card" style="background-image: url('assets/images/service-it-support.jpg');">
+                <div class="service-card-overlay"></div>
+                <div class="service-card-content">
+                    <h3>Business IT Support</h3>
+                    <p>Comprehensive corporate IT maintenance and infrastructure upkeep for enterprises.</p>
+                    
+                    <div class="service-expandable-content">
+                        <p class="extra-details">Includes scheduled proactive server checks, network auditing, rapid-response troubleshooting, and dedicated SLA support contracts tailored for Malawian businesses.</p>
+                        <a href="#request" data-request class="btn-primary">Request Support &rarr;</a>
+                    </div>
+                    
+                    <button type="button" class="expand-card-btn" aria-expanded="false">Learn More &darr;</button>
+                </div>
+            </div>
+            
+            <!-- 3. Computer & Laptop Repair -->
+            <div class="service-card" style="background-image: url('assets/images/service-laptop-repair.jpg');">
+                <div class="service-card-overlay"></div>
+                <div class="service-card-content">
+                    <h3>Computer & Laptop Repair</h3>
+                    <p>Advanced hardware diagnostics, screen replacements, and physical repairs.</p>
+                    
+                    <div class="service-expandable-content">
+                        <p class="extra-details">Expert component-level repair for HP, Dell, Lenovo, and Apple Macbooks. Fast turnaround times for power IC issues, keyboard replacements, and SSD upgrades.</p>
+                        <a href="#request" data-request class="btn-primary">Request Support &rarr;</a>
+                    </div>
+                    
+                    <button type="button" class="expand-card-btn" aria-expanded="false">Learn More &darr;</button>
+                </div>
+            </div>
+            
+            <!-- 4. Software & Operating System Installation -->
+            <div class="service-card" style="background-image: url('assets/images/service-software.jpg');">
+                <div class="service-card-overlay"></div>
+                <div class="service-card-content">
+                    <h3>Software & Operating System Installation</h3>
+                    <p>Operating system deployment, driver updates, and boot error fixes.</p>
+                    
+                    <div class="service-expandable-content">
+                        <p class="extra-details">Clean installation of Windows (10/11), macOS, and Linux distributions, paired with activated productivity suites and essential utility drivers.</p>
+                        <a href="#request" data-request class="btn-primary">Request Support &rarr;</a>
+                    </div>
+                    
+                    <button type="button" class="expand-card-btn" aria-expanded="false">Learn More &darr;</button>
+                </div>
+            </div>
+            
+            <!-- 5. Networking & Internet Troubleshooting -->
+            <div class="service-card" style="background-image: url('assets/images/service-networking.jpg');">
+                <div class="service-card-overlay"></div>
+                <div class="service-card-content">
+                    <h3>Networking & Internet Troubleshooting</h3>
+                    <p>Router setup, Wi-Fi optimization, and LAN configuration.</p>
+                    
+                    <div class="service-expandable-content">
+                        <p class="extra-details">Eliminate dead zones, configure secure enterprise Wi-Fi meshes, set up structured LAN cabling, and resolve ISP bottleneck issues.</p>
+                        <a href="#request" data-request class="btn-primary">Request Support &rarr;</a>
+                    </div>
+                    
+                    <button type="button" class="expand-card-btn" aria-expanded="false">Learn More &darr;</button>
+                </div>
+            </div>
+            
+            <!-- 6. Website Development -->
+            <div class="service-card" style="background-image: url('assets/images/service-website.jpg');">
+                <div class="service-card-overlay"></div>
+                <div class="service-card-content">
+                    <h3>Website Development</h3>
+                    <p>Minimalist corporate website design and web development.</p>
+                    
+                    <div class="service-expandable-content">
+                        <p class="extra-details">High-performance, mobile-responsive websites built for local companies looking to establish a dominant digital presence with lightning-fast load speeds.</p>
+                        <a href="#request" data-request class="btn-primary">Request Support &rarr;</a>
+                    </div>
+                    
+                    <button type="button" class="expand-card-btn" aria-expanded="false">Learn More &darr;</button>
+                </div>
+            </div>
+            
+            <!-- 7. Cybersecurity & Data Protection -->
+            <div class="service-card" style="background-image: url('assets/images/service-security.jpg');">
+                <div class="service-card-overlay"></div>
+                <div class="service-card-content">
+                    <h3>Cybersecurity & Data Protection</h3>
+                    <p>Malware removal, backup strategies, and security configuration.</p>
+                    
+                    <div class="service-expandable-content">
+                        <p class="extra-details">Protect confidential business data against ransomware and malware attacks with robust automated backup pipelines and firewall security setups.</p>
+                        <a href="#request" data-request class="btn-primary">Request Support &rarr;</a>
+                    </div>
+                    
+                    <button type="button" class="expand-card-btn" aria-expanded="false">Learn More &darr;</button>
+                </div>
+            </div>
+            
+            <!-- 8. Phone & Mobile-Device Support -->
+            <div class="service-card" style="background-image: url('assets/images/service-mobile.jpg');">
+                <div class="service-card-overlay"></div>
+                <div class="service-card-content">
+                    <h3>Phone & Mobile-Device Support</h3>
+                    <p>Hardware assistance, sync issues, and smartphone optimization.</p>
+                    
+                    <div class="service-expandable-content">
+                        <p class="extra-details">Troubleshooting sync failures, account recoveries, storage management, and hardware repair facilitation for Android and iOS devices.</p>
+                        <a href="#request" data-request class="btn-primary">Request Support &rarr;</a>
+                    </div>
+                    
+                    <button type="button" class="expand-card-btn" aria-expanded="false">Learn More &darr;</button>
+                </div>
+            </div>
+            
+            <!-- 9. IT Consulting -->
+            <div class="service-card" style="background-image: url('assets/images/service-consulting.jpg');">
+                <div class="service-card-overlay"></div>
+                <div class="service-card-content">
+                    <h3>IT Consulting</h3>
+                    <p>Guidance on technology investments and digital transformation.</p>
+                    
+                    <div class="service-expandable-content">
+                        <p class="extra-details">Expert advisory on hardware procurement, software scaling, and IT budget optimization tailored specifically for growing enterprises.</p>
+                        <a href="#request" data-request class="btn-primary">Request Support &rarr;</a>
+                    </div>
+                    
+                    <button type="button" class="expand-card-btn" aria-expanded="false">Learn More &darr;</button>
+                </div>
+            </div>
+            
+            <!-- 10. Basic IT Training & AI Masterclasses -->
+            <div class="service-card" style="background-image: url('assets/images/service-ai-training.jpg');">
+                <div class="service-card-overlay"></div>
+                <div class="service-card-content">
+                    <h3>Basic IT Training & AI Masterclasses</h3>
+                    <p>Hands-on training sessions leveraging modern software and AI.</p>
+                    
+                    <div class="service-expandable-content">
+                        <p class="extra-details">Equip your staff with practical skills in productivity software, workflow automation, and safe usage of generative AI tools to multiply daily output.</p>
+                        <a href="#request" data-request class="btn-primary">Request Support &rarr;</a>
+                    </div>
+                    
+                    <button type="button" class="expand-card-btn" aria-expanded="false">Learn More &darr;</button>
+                </div>
+            </div>
+            
+            <!-- 11. Application Installation -->
+            <div class="service-card" style="background-image: url('assets/images/service-app-install.jpg');">
+                <div class="service-card-overlay"></div>
+                <div class="service-card-content">
+                    <h3>Application Installation</h3>
+                    <p>Safe downloading, configuration, and setup of business apps.</p>
+                    
+                    <div class="service-expandable-content">
+                        <p class="extra-details">Ensure all desktop and mobile utilities are correctly configured, licensed, and optimized for seamless team collaboration.</p>
+                        <a href="#request" data-request class="btn-primary">Request Support &rarr;</a>
+                    </div>
+                    
+                    <button type="button" class="expand-card-btn" aria-expanded="false">Learn More &darr;</button>
+                </div>
+            </div>
+            
+            <!-- 12. Electronic Gadget Setup -->
+            <div class="service-card" style="background-image: url('assets/images/service-gadgets.jpg');">
+                <div class="service-card-overlay"></div>
+                <div class="service-card-content">
+                    <h3>Electronic Gadget Setup & Troubleshooting</h3>
+                    <p>Configuration and pairing for smart gadgets and office peripherals.</p>
+                    
+                    <div class="service-expandable-content">
+                        <p class="extra-details">Seamless installation of office printers, biometric scanners, projectors, conference audio systems, and smart office gear.</p>
+                        <a href="#request" data-request class="btn-primary">Request Support &rarr;</a>
+                    </div>
+                    
+                    <button type="button" class="expand-card-btn" aria-expanded="false">Learn More &darr;</button>
+                </div>
+            </div>
+            
+            <!-- 13. Custom Technical Advisory -->
+            <div class="service-card" style="background-image: url('assets/images/service-advisory.jpg');">
+                <div class="service-card-overlay"></div>
+                <div class="service-card-content">
+                    <h3>Custom Technical Advisory & Support</h3>
+                    <p>Tailored technical problem-solving for unique customer situations.</p>
+                    
+                    <div class="service-expandable-content">
+                        <p class="extra-details">Bespoke troubleshooting and engineering support for complex technical roadblocks that fall outside standard maintenance packages.</p>
+                        <a href="#request" data-request class="btn-primary">Request Support &rarr;</a>
+                    </div>
+                    
+                    <button type="button" class="expand-card-btn" aria-expanded="false">Learn More &darr;</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+        <!-- Footer with Quick Navigation -->
+        <footer class="site-footer">
+            <div class="container footer-grid">
+                <div class="footer-col">
+                    <svg class="brand-logo" viewBox="0 0 160 40" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="NyasaTech1">
+                    <text x="0" y="28" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-weight="700" font-size="22" letter-spacing="1">NYASA<tspan fill="#0066FF">TECH1</tspan></text>
+                </svg>
+                    <p class="footer-desc">Smart tech solutions, IT support, and digital training across Malawi.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="#request" data-request>Request Support</a></li>
+                        <li><a href="#request" data-request data-support="General enquiry">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support Options</h4>
+                    <ul>
+                        <li><a href="#request" data-request data-support="Remote Assistance">Remote Assistance</a></li>
+                        <li><a href="#request" data-request data-support="On-Site Visit">On-Site Visits</a></li>
+                        <li><a href="#request" data-request data-support="Workshop Drop-Off">Workshop Drop-Off</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="services.html#services-list">All Services</a></li>
+                        <li><a href="index.html#core-services">Core Services</a></li>
+                        <li><a href="index.html#recent-work">Recent Work</a></li>
+                        <li><a href="#top">Back to top</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 NyasaTech1. All rights reserved.</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
